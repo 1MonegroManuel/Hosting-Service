@@ -1,5 +1,5 @@
 body {
-    background: #2a2f4a;
+    background: #0a0e23;
     color: #eee;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
@@ -10,12 +10,13 @@ body {
 }
 
 .container {
-    background: #3c406d;
+    background: rgba(60, 64, 109, 0.8);
     padding: 2rem 3rem;
     border-radius: 10px;
-    box-shadow: 0 0 15px #0e1229;
+    box-shadow: 0 0 15px rgba(14, 18, 41, 0.5);
     width: 320px;
     text-align: center;
+    backdrop-filter: blur(5px);
 }
 
 input {
@@ -25,6 +26,7 @@ input {
     border-radius: 6px;
     border: none;
     font-size: 1rem;
+    background: rgba(255, 255, 255, 0.9);
 }
 
 button {
